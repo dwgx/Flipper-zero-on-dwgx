@@ -1,0 +1,14 @@
+*.o
+*.d
+.vscode/
+.idea/
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# uFBT build artifacts
+build/
+dist/
+.flipper/

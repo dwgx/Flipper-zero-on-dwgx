@@ -1,0 +1,75 @@
+Flipper-zero-on-dwgx — Personal Archive License
+Copyright (c) 2026 dwgx <https://github.com/dwgx>
+
+This license applies to the original code and documentation authored by the
+repository owner, notably the contents of `custom_apps/` and `README.md` /
+`docs/` inside this repository. Third-party files redistributed under
+`sd_pack/` retain the license of their upstream authors — see "Third-Party
+Content" below.
+
+1. Permission to Use
+   You are free to:
+   - Install and run the original work on your own Flipper Zero device.
+   - Study, modify, and build upon the source code for PERSONAL, NON-PROFIT
+     learning and experimentation.
+   - Share direct links to this repository (github.com/dwgx/Flipper-zero-on-dwgx)
+     in your own educational or research writing.
+
+2. Restrictions
+   You may NOT, without prior written permission from the copyright holder:
+   (a) Redistribute the original work or any derivative thereof — whether in
+       source, compiled binary, or modified form — through any channel other
+       than a direct link back to this repository. This includes mirroring
+       to other Git hosts, repackaging into firmware distributions, including
+       in paid "Flipper Zero app packs", or uploading to app stores.
+   (b) Sell, license, or otherwise commercialize the original work or any
+       derivative thereof, including bundling into paid services, courses,
+       hardware-pre-loaded SD cards, or subscription offerings.
+   (c) Remove, obscure, or alter the author attribution (the name "dwgx" and
+       the link back to this repository) in any redistribution permitted
+       under clause 1.
+
+3. No Warranty
+   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
+   OR IMPLIED. THE AUTHOR SHALL NOT BE LIABLE FOR ANY CLAIM, DAMAGES, OR
+   OTHER LIABILITY ARISING FROM THE USE OR MISUSE OF THIS SOFTWARE. IN
+   PARTICULAR, TOOLS IN THIS REPOSITORY THAT INTERACT WITH RADIO, BLUETOOTH,
+   NFC, RFID, OR USB SYSTEMS MAY BE SUBJECT TO LOCAL LAW. THE END USER IS
+   SOLELY RESPONSIBLE FOR COMPLIANCE WITH ALL APPLICABLE LAWS AND
+   REGULATIONS, AND FOR OBTAINING AUTHORIZATION BEFORE TESTING THEM AGAINST
+   ANY DEVICE OR NETWORK THEY DO NOT OWN.
+
+4. Acceptable Use
+   The author does not authorize and will not support use of the original
+   work for: unauthorized access to third-party systems, denial-of-service
+   attacks, harassment, stalking, bypassing security controls on equipment
+   the user does not own, or any other conduct that is illegal in the
+   user's jurisdiction.
+
+5. Third-Party Content
+   Files under `sd_pack/` that were authored by third parties retain their
+   upstream license. Notable redistributed collections (mirrored for
+   convenience only) and their canonical sources:
+
+     - sd_pack/infrared/assets_user/Lucaslhm_IRDB
+         → github.com/Lucaslhm/Flipper-IRDB
+     - sd_pack/subghz/assets_user/UberGuidoZ_SubGHz
+     - sd_pack/nfc/assets_user/UberGuidoZ_NFC
+     - sd_pack/badusb/UberGuidoZ_BadUSB
+         → github.com/UberGuidoZ/Flipper (and siblings)
+     - sd_pack/badusb/hak5_Ducky
+         → github.com/hak5/usbrubberducky-payloads
+     - sd_pack/apps/*.fap — each .fap has its own upstream project; consult
+       the individual project for licensing. Many are GPL/MIT, some are
+       specific to the upstream firmware fork.
+
+   If you are the author of any mirrored content and wish the mirror to be
+   removed, open an issue on this repository — it will be taken down
+   promptly.
+
+6. Scope
+   This license applies only to material authored by the copyright holder.
+   Nothing in this license overrides the rights granted by upstream
+   licenses on third-party content. If a conflict exists between this
+   license and an upstream license on redistributed content, the upstream
+   license controls for that content.
