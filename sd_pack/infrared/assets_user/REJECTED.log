@@ -1,0 +1,4 @@
+Lucaslhm_IRDB\ACs\Daikin\Daikin_ARC480A41.ir	missing magic 'Filetype: IR signals file' (head: '#\n# Daikin ARC480A4 AC Remote\n#')
+Lucaslhm_IRDB\Projectors\Epson\Epson-EB-X12.ir	missing magic 'Filetype: IR signals file' (head: 'Filetype: Bruce IR File\nVersion: 1\n#')
+Lucaslhm_IRDB\Projectors\Wanbo\Wanbo_T6_Max.ir	missing magic 'Filetype: IR signals file' (head: '\ufeffFiletype: IR signals file\nVersion: 1\n# ')
+Lucaslhm_IRDB\SoundBars\Yarra\Yarra_3DX.ir	missing magic 'Filetype: IR signals file' (head: 'Filetype: \nIR signals file\nVersion: 1')

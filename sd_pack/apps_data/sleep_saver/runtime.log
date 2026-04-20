@@ -1,0 +1,74 @@
+[507701] alloc start
+[507713] crumb #1 alloc/records
+[507732] alloc step=records
+[507740] crumb #2 alloc/view_dispatcher
+[507759] alloc step=view_dispatcher
+[507825] alloc step=backgrounds custom=3
+[507830] crumb #3 alloc/screen_view
+[507852] alloc step=screen_view
+[507857] crumb #4 alloc/screen_model
+[507878] alloc step=screen_model
+[507884] crumb #5 alloc/settings_lists
+[507905] alloc step=settings_lists
+[507911] crumb #6 alloc/settings_items
+[507932] alloc step=settings_items
+[507980] crumb #7 alloc/config
+[508018] alloc step=config
+[508023] select slot_req=0 total=7 current=0
+[508028] select builtin slot=0 theme=0
+[508035] crumb #8 alloc/select_slot
+[508058] alloc step=select_slot
+[508062] crumb #9 alloc/settings_labels
+[508085] alloc step=settings_labels
+[508089] alloc ready bg=3 slot=0 sleep_view=1
+[508097] crumb #10 alloc/attach_gui
+[508128] alloc step=attach_gui
+[508158] wake slot=0
+[509058] input left type=2 slot=0
+[509067] event prev slot=0
+[509072] select slot_req=6 total=7 current=0
+[509084] select custom ok slot=6 custom=2 frames=1950 frame=0
+[509094] audio sync path=/ext/apps_data/sleep_saver/backgrounds/auto_04_psy_phone.wav offset=0
+[509106] audio alloc begin
+[509120] audio alloc ok
+[509136] audio sync allocated
+[509144] audio request start
+[509311] audio start path=/ext/apps_data/sleep_saver/backgrounds/auto_04_psy_phone.wav offset=0
+[510777] wake slot=6
+[510851] audio stop
+[510883] audio stop
+[511827] audio sync path=/ext/apps_data/sleep_saver/backgrounds/auto_04_psy_phone.wav offset=2162
+[511841] audio sync allocated
+[511854] audio request start
+[512053] audio start path=/ext/apps_data/sleep_saver/backgrounds/auto_04_psy_phone.wav offset=2162
+[512675] input left type=2 slot=6
+[512691] event prev slot=6
+[512703] select slot_req=5 total=7 current=6
+[512725] select custom ok slot=5 custom=1 frames=6309 frame=0
+[512736] audio sync path=/ext/apps_data/sleep_saver/backgrounds/auto_02_end_of_daylight.wav offset=0
+[512750] audio sync allocated
+[512762] audio request start
+[512975] audio start path=/ext/apps_data/sleep_saver/backgrounds/auto_02_end_of_daylight.wav offset=0
+[516045] wake slot=5
+[516094] audio stop
+[516125] audio stop
+[517067] audio sync path=/ext/apps_data/sleep_saver/backgrounds/auto_02_end_of_daylight.wav offset=4519
+[517082] audio sync allocated
+[517094] audio request start
+[517269] audio start path=/ext/apps_data/sleep_saver/backgrounds/auto_02_end_of_daylight.wav offset=4519
+[518912] exit source=back-hold type=3 dimmed=0 slot=5
+[518924] exit now source=queued type=3 dimmed=0 slot=5
+[518929] shutdown begin slot=5
+[518935] shutdown callbacks detached
+[519320] free start slot=5
+[519329] shutdown callbacks detached
+[519335] free backlight released
+[519340] free screen model detached
+[519359] free audio stopped
+[519367] free dispatcher
+[519459] free audio
+[519464] free settings power
+[519469] free settings rotation
+[519477] free screen view
+[519488] free backgrounds
+[519493] free close storage

@@ -1,0 +1,16 @@
+Filetype: SleepSaverConfig
+Version: 9
+AutoScreenOff: true
+AutoScreenOffIndex: 4
+LowPowerWhenDimmed: false
+RotationMode: 0
+RotationIntervalIndex: 2
+AnimationFpsIndex: 0
+EnabledMask: 0
+DimWallpaperEnabled: true
+AudioEnabled: true
+DimTheme: 0
+LastTheme: 0
+GlobalDimTargetPath: 
+ExitImageMode: 0
+ExitImagePath: 

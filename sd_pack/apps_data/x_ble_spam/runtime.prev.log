@@ -1,0 +1,168 @@
+[673634] app_start session=3852107446
+[673643] crumb #1 app/start
+[674233] crumb #2 beacon/start_enter
+[674268] crumb #3 ble/ensure_ble_ready_enter
+[674302] crumb #4 ble/stop_advertising_for_takeover
+[674322] ble active, trying stop_advertising
+[674384] crumb #5 ble/ensure_ble_ready_ok
+[674409] crumb #6 beacon/set_config
+[674431] crumb #7 beacon/set_data
+[674454] crumb #8 beacon/start_call
+[674486] start ok mode=continuous profile=Test Mfg A interval=50
+[674504] crumb #9 beacon/start_ok
+[680750] crumb #10 beacon/stop_enter
+[680787] crumb #11 beacon/stop_call
+[680815] stop ok reason=manual
+[680832] crumb #12 beacon/stop_ok
+[681155] mode=single (long press)
+[683147] crumb #13 beacon/start_enter
+[683180] crumb #14 ble/ensure_ble_ready_enter
+[683200] crumb #15 ble/ensure_ble_ready_ok
+[683222] crumb #16 beacon/set_config
+[683245] crumb #17 beacon/set_data
+[683268] crumb #18 beacon/start_call
+[683306] start ok mode=single profile=Test Mfg A interval=50
+[683322] crumb #19 beacon/start_ok
+[685353] crumb #20 beacon/stop_enter
+[685399] crumb #21 beacon/stop_call
+[685424] stop ok reason=single done
+[685443] crumb #22 beacon/stop_ok
+[685987] crumb #23 ui/input_press
+[686286] crumb #24 ui/input_press
+[686498] crumb #25 ui/input_press
+[686521] interval=60
+[686668] crumb #26 ui/input_press
+[686699] interval=70
+[688113] crumb #27 ui/input_press
+[688134] interval=60
+[688232] crumb #28 ui/input_press
+[688254] interval=50
+[688338] crumb #29 ui/input_press
+[688364] interval=40
+[689486] crumb #30 ui/input_press
+[689519] interval=30
+[689592] crumb #31 ui/input_press
+[689614] interval=20
+[689808] crumb #32 ui/input_press
+[689829] interval=20
+[689928] crumb #33 ui/input_press
+[689950] interval=20
+[690031] crumb #34 ui/input_press
+[690052] interval=20
+[690125] crumb #35 ui/input_press
+[690147] interval=20
+[690298] crumb #36 ui/input_press
+[690417] crumb #37 ui/input_press
+[691125] crumb #38 ui/input_press
+[691148] profile=Test Mfg B len=15 supported=yes
+[691268] crumb #39 ui/input_press
+[691299] profile=Test Eddystone len=15 supported=yes
+[692717] crumb #40 beacon/start_enter
+[692751] crumb #41 ble/ensure_ble_ready_enter
+[692771] crumb #42 ble/ensure_ble_ready_ok
+[692794] crumb #43 beacon/set_config
+[692816] crumb #44 beacon/set_data
+[692840] crumb #45 beacon/start_call
+[692884] start ok mode=single profile=Test Eddystone interval=20
+[692905] crumb #46 beacon/start_ok
+[694885] crumb #47 beacon/stop_enter
+[694910] crumb #48 beacon/stop_call
+[694935] stop ok reason=single done
+[694958] crumb #49 beacon/stop_ok
+[695548] crumb #50 ui/input_press
+[695573] profile=iBeacon len=30 supported=yes
+[695661] crumb #51 ui/input_press
+[695692] profile=AirPods 2 len=29 supported=no
+[696404] crumb #52 beacon/start_enter
+[696435] profile blocked profile=AirPods 2 len=29 reason=malformed ad fields
+[696442] crumb #53 beacon/profile_unsupported
+[696863] mode=continuous (long press)
+[698419] crumb #54 beacon/start_enter
+[698450] profile blocked profile=AirPods 2 len=29 reason=malformed ad fields
+[698457] crumb #55 beacon/profile_unsupported
+[698799] mode=single (long press)
+[699889] mode=continuous (long press)
+[701042] mode=single (long press)
+[701931] crumb #56 beacon/start_enter
+[701965] profile blocked profile=AirPods 2 len=29 reason=malformed ad fields
+[701972] crumb #57 beacon/profile_unsupported
+[702343] mode=continuous (long press)
+[704041] crumb #58 beacon/start_enter
+[704074] profile blocked profile=AirPods 2 len=29 reason=malformed ad fields
+[704089] crumb #59 beacon/profile_unsupported
+[704464] mode=single (long press)
+[705458] crumb #60 beacon/start_enter
+[705499] profile blocked profile=AirPods 2 len=29 reason=malformed ad fields
+[705507] crumb #61 beacon/profile_unsupported
+[705829] mode=continuous (long press)
+[706370] crumb #62 beacon/start_enter
+[706410] profile blocked profile=AirPods 2 len=29 reason=malformed ad fields
+[706417] crumb #63 beacon/profile_unsupported
+[706745] mode=single (long press)
+[707508] crumb #64 beacon/start_enter
+[707539] profile blocked profile=AirPods 2 len=29 reason=malformed ad fields
+[707546] crumb #65 beacon/profile_unsupported
+[707876] mode=continuous (long press)
+[708072] crumb #66 ui/input_press
+[708225] crumb #67 ui/input_press
+[709035] crumb #68 ui/input_press
+[709142] crumb #69 ui/input_press
+[709702] crumb #70 ui/input_press
+[710718] mode=single (long press)
+[711341] mode=continuous (long press)
+[712101] crumb #71 beacon/start_enter
+[712136] profile blocked profile=AirPods 2 len=29 reason=malformed ad fields
+[712141] crumb #72 beacon/profile_unsupported
+[712514] mode=single (long press)
+[713414] crumb #73 beacon/start_enter
+[713447] profile blocked profile=AirPods 2 len=29 reason=malformed ad fields
+[713454] crumb #74 beacon/profile_unsupported
+[713744] mode=continuous (long press)
+[714746] mode=single (long press)
+[715951] mode=continuous (long press)
+[717630] crumb #75 beacon/start_enter
+[717675] profile blocked profile=AirPods 2 len=29 reason=malformed ad fields
+[717692] crumb #76 beacon/profile_unsupported
+[718066] mode=single (long press)
+[718415] crumb #77 beacon/start_enter
+[718448] profile blocked profile=AirPods 2 len=29 reason=malformed ad fields
+[718456] crumb #78 beacon/profile_unsupported
+[718846] mode=continuous (long press)
+[719012] crumb #79 beacon/start_enter
+[719045] profile blocked profile=AirPods 2 len=29 reason=malformed ad fields
+[719052] crumb #80 beacon/profile_unsupported
+[719431] mode=single (long press)
+[719612] crumb #81 beacon/start_enter
+[719645] profile blocked profile=AirPods 2 len=29 reason=malformed ad fields
+[719652] crumb #82 beacon/profile_unsupported
+[720051] mode=continuous (long press)
+[721029] crumb #83 ui/input_press
+[721051] crumb #84 ui/input_press
+[721093] profile=AirPods Pro len=29 supported=no
+[721148] crumb #85 ui/input_press
+[721170] crumb #86 ui/input_press
+[721204] interval=30
+[721689] crumb #87 ui/input_press
+[721794] crumb #88 ui/input_press
+[722465] crumb #89 ui/input_press
+[722574] crumb #90 ui/input_press
+[723047] crumb #91 ui/input_press
+[723674] crumb #92 ui/input_press
+[723708] profile=AirPods Max len=29 supported=no
+[723859] crumb #93 ui/input_press
+[723885] profile=Surface Pen len=19 supported=yes
+[724599] crumb #94 beacon/start_enter
+[724638] crumb #95 ble/ensure_ble_ready_enter
+[724678] crumb #96 ble/ensure_ble_ready_ok
+[724723] crumb #97 beacon/set_config
+[724748] crumb #98 beacon/set_data
+[724779] crumb #99 beacon/start_call
+[724816] start ok mode=continuous profile=Surface Pen interval=30
+[724833] crumb #100 beacon/start_ok
+[727906] crumb #101 ui/input_press
+[727928] crumb #102 beacon/stop_enter
+[727963] crumb #103 beacon/stop_call
+[727994] stop ok reason=app exit
+[728013] crumb #104 beacon/stop_ok
+[728041] app_exit starts=4
+[728048] crumb #105 app/exit

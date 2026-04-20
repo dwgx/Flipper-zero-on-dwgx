@@ -1,0 +1,7 @@
+Filetype: RegisterLabConfig
+Version: 1
+Width: 1
+Edit: 1
+Wrap: true
+Value: 42300
+Unit: 0

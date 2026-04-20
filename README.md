@@ -138,21 +138,30 @@ Flipper-zero-on-dwgx/
 │   ├── nfc/
 │   │   ├── assets/                 # 官方字典 + AID/国家/货币编码
 │   │   ├── assets_user/UberGuidoZ_NFC/  # UberGuidoZ NFC 集
+│   │   ├── mf_classic_dict_user.*  # 我加的 MIFARE Classic 字典
 │   │   └── pack_*.nfc              # NDEF demo 包
-│   └── subghz/
-│       ├── assets/                 # 官方协议 (Alutech / Came / KeeLoq / Nice)
-│       └── assets_user/UberGuidoZ_SubGHz/  # UberGuidoZ SubGHz 大库
+│   ├── subghz/
+│   │   ├── assets/                 # 官方协议 (Alutech / Came / KeeLoq / Nice)
+│   │   └── assets_user/UberGuidoZ_SubGHz/  # UberGuidoZ SubGHz 大库
+│   ├── apps_data/                  # 49MB 运行时状态（sleep_saver 背景、CLI 插件、ESP 扫描等）
+│   ├── wav_player/                 # 189MB 个人转换的 WAV 音乐（Touhou + undaloop）
+│   ├── update/f7-update-1.4.3/     # OFW 1.4.3 升级包（应从官方优先）
+│   ├── dolphin/                    # 海豚等级存档
+│   └── Manifest                    # SD 卡顶层索引
 └── docs/                           # 详细文档（见各分类）
 ```
 
-**已剔除内容（出于隐私/版权）：**
-- ❌ `wav_player/` (189MB，含个人音乐收藏)
-- ❌ `apps_data/` (设备运行时日志与状态)
-- ❌ `update/` (固件镜像，应从 Flipper 官方获取)
-- ❌ `nfc/Icoca.nfc`（日本交通卡 dump）
-- ❌ `nfc/mf_classic_dict_user.*`（个人收集的门禁密钥）
-- ❌ `infrared/*.ir`（家里空调等个人捕获）
-- ❌ `*/REJECTED.log`（个人失败捕获日志）
+**已剔除内容（隐私 / 安全凭据）：**
+- ❌ `nfc/Icoca.nfc`（日本交通 IC 卡 dump，含余额/行程历史）
+- ❌ `u2f/{key.u2f,cnt.u2f,assets/cert_key.u2f}`（Flipper 作为 U2F 硬件密钥的**私钥**，公开会让别人冒充本人登录已绑定的 2FA 账户）
+- ❌ `apps_data/x_findmy/findmy_state.txt`（FindMy 信标私钥，含 MAC + SECP224R1 数据）
+- ❌ `apps_data/{hid_ble,bad_usb}/.bt_hid.keys`（BT HID 配对密钥）
+- ❌ `apps_data/marauder/logs/` + `apps_data/ghost_esp/{logs,pcaps,wardrive}/`（WiFi/BLE 扫描日志，含本人家 SSID 和周边 BSSID，可通过 wigle.net 反查地理位置）
+
+**已包含但需注意：**
+- `sd_pack/wav_player/` (189MB) — 本人从视频源转换的 WAV 音乐（Touhou + undaloop），可能仍受原作者著作权保护（东方系楽曲属 ZUN 及同人作曲者）。仅作个人设备音源参考，请勿商用。
+- `sd_pack/update/f7-update-1.4.3/` — Flipper OFW 1.4.3 升级包副本。**请优先从 [flipper.net](https://flipper.net) / [flipperzero-firmware releases](https://github.com/flipperdevices/flipperzero-firmware/releases) 下载**。
+- `sd_pack/nfc/mf_classic_dict_user.*` — 本人收集的 MIFARE Classic 密钥字典，主要来自破解工具产出的增量。**请在你自己的卡上使用**，不保证对任何具体卡有效。
 
 ---
 

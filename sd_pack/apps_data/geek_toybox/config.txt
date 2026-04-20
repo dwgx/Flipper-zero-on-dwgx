@@ -1,0 +1,6 @@
+Filetype: GeekToyboxConfig
+Version: 1
+Mode: 3
+Speed: 1
+Detail: 1
+AutoShuffle: false
